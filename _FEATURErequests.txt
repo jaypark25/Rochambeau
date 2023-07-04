@@ -1,0 +1,23 @@
+1. LIfetime ROchambeau PointS (lirops) to the user database... 
+- involves adding element to Database records
+- Mob leaders are awarded 100x mob size at end of the week
+- Mob members are awarded pts TDB
+- Leaderboard would show mob_size : name [lirops]
+- Any myHandler interactions would include [lirops] after username
+eg MrH[200] 
+
+****************************
+2. /trash command to trash talk whoever you are locked in battle with
+- if not in battle, error returned
+- opponent sees something like: MrH[200] is trash talking you:
+
+****************************
+3. /mobchat command to either talk to entire mob (if you a mob boss) or to your leader (if you are a mob member)
+- member sees something like: Your mob boss MrH[200] says:
+- boss sees something like: Your mob's MrH[200] says:
+
+****************************
+4. create admin list (currently only Mr H) to allow for special commands like /broadcast
+
+****************************
+5. Move system to github (or somewhere else?) where we can have version control
